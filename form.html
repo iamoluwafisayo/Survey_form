@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1 id="title">Music Industry Survey Form</h1>
+<p id="description">Music speaks to one's mind and soul.Music can be use for consoling one another and also use for rejoicing.</p>
+ <form id="survey-form">
+   <fieldset>
+    <label id="name-label">Enter your name
+  <input type="text" id="name" placeholder="Enter your Name" required />
+    </label>
+    <br>
+    <label id="email-label">Enter your Email
+  <input type="email" id="email" placeholder="Enter your Email" required />
+  </label>
+  <br>
+  <label id="number-label">Age (optional)
+  <input type="number" id="number" placeholder="Age" min="7" max="150" required/></label>
+  <br>
+  <label id="name-label">When should we listen to music?
+  <select id="dropdown">
+    <option value="">select one</option>
+    <option value="1">When we are happy</option>
+    <option value="2">When we are sad</option>
+    <option value="3">When we are heartbroken</option>
+    <option value="4">When we are grateful/blessed</option>
+    <option value="5">I have no idea</option>
+  </select>
+</label>
+</fieldset>
+<fieldset>
+  <label id="name-label"> Would you recommend music to a friend?<br>
+  <input type="radio" name="form" value="form" />Definitely</label>
+ <label><input type="radio" name="form" value="form" />Maybe</label>
+  <label><input type="radio" name="form" value="form"/>Not sure.</label>
+  <br>
+  <label id="number-label">What is your favorite artist in the music industry?
+    <select id="dropdown">
+      <option value="">select an option</option>
+    <option value="1">Justin Bieber</option>
+    <option value="2">Ed Sheeran</option>
+    <option value="3">Ariana Grande</option>
+    <option value="4">Tiwa savage</option>
+    <option value="5">Burna Boy</option>
+    </select>
+  </label>
+  <label id="name-label">What is needed in the music industry?
+<br>   <input type="checkbox" name="music" value="music"/>Musical talent</label>
+    <label>
+      <input type="checkbox" name="music" value="music"/>Knowledge and Skills Required</label>
+      <label>
+      <input type="checkbox" name="music" value="music"/>Ability to work with people</label>
+      <label>
+        <input type="checkbox" name="music" value="music"/>Interest in music and media</label>
+      <label>
+        <input type="checkbox" name="music"value="music"/>Often under tight deadlines and intense pressure</label>
+        <label>
+        <input type="checkbox" name="music" value="music"/>Specialized skill and knowledge in one or more of the television/radio industries.</label>
+        <label>
+          <input type="checkbox" name="music" value="music"/>Good business instincts and a unique personality.</label> <br>
+         
+  <label id="name-label">Provide a bio: <br>
+    <textarea name="bio" rows="10" cols="60" placeholder="Details about yourself..."></textarea>
+    </label> <br>
+    <button id="submit">
+     <a href="#"> Submit</a> </button>
+    </fieldset>
+ </form>
+    </div>
+  </body>
+</html>
+
